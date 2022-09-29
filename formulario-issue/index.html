@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>issuu questionnaire</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./logoissuu.png" alt="issuu logo">
+            <p>Already a user?</p>
+            <a href="/">Sign in</a>
+            <hr>
+        </div>
+    </header>
+    <main>
+        <form action="/" method="post">
+   <div>
+        <h1>Create an Issuu Account.</h1>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a> 
+    </div>
+    <label>
+        <p>or with email</p>
+        <p><strong>Email</strong></p>
+        <input 
+       type="email" 
+       name="user email"
+       required>
+    </label>
+    <label>
+        <p><strong>Password</strong></p>
+        <input 
+        type="password" 
+        name="user password"
+        required
+        pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$">
+    </label>
+    <br>
+    <label><input 
+        type="checkbox" 
+        id="cbox1" 
+        value="first_checkbox"> 
+        I accept the <a href="https://issuu.com/legal/terms">Terms of Service</a> and the <a href="https://issuu.com/legal/terms/pro">Professional Terms of Service</a>.
+    </label><br>
+    <label>
+        <button type="submit">CREATE ACCOUNT</button>
+     </label>
+     <footer>
+        <hr>
+        <p>Issuu Inc.</p>
+        <p>Terms</p>
+        <p>Privacy</p>
+        <p>DMCA</p>
+     </footer>
+</main>
+        
+    
+</form>
+</body>
+</html>
